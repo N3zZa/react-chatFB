@@ -1,0 +1,17 @@
+button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: var(--mainPurple);
+    color: var(--bgWhite);
+    transition: .2s linear;
+    outline: none;
+    cursor: pointer;
+    transition: .2s linear;
+    border: 1px solid transparent;
+}
+
+button:hover {
+    border: 1px solid var(--mainPurple);
+    background: var(--bgWhite);
+    color: var(--mainPurple);
+}

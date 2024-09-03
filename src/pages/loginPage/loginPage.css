@@ -1,0 +1,90 @@
+:root {
+    --bgWhite: #fff;
+    --mainPurple: #5800aa;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: var(--mainPurple);
+}
+
+body {
+    background: var(--bgWhite);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* main page */
+.wrapper {
+    padding: 1rem;
+}
+
+.main_login-block {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 500px;
+    width: 95%;
+    max-height: 400px;
+    height: 100%;
+    background: var(--bgWhite);
+    border: 1px solid var(--mainPurple);
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.main_login-inner {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.buttons_block {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+
+/*  */
+.passwordInput_block {
+    position: relative;
+    width: 100%;
+}
+
+.handleInputTypeBtn {
+    content: ' ';
+    position: absolute;
+    right: 15px;
+    top: 8px;
+    bottom: 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.passwordInput {
+    width: 100%;
+}
+
+
+/*  */

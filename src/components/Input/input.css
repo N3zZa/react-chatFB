@@ -1,0 +1,9 @@
+input {
+    outline: none;
+    background: var(--bgWhite);
+    border: 1px solid var(--mainPurple);
+    background: var(--bgWhite);
+    color: var(--mainPurple);
+    padding: 10px 20px;
+    border-radius: 10px;
+}

@@ -84,7 +84,6 @@ function App() {
        }, 1000);
   }
   
-
   const handleAvatar = async (e) => {
     console.log(e.target.files[0].name.split('.')[0]);
     if (e.target.files[0]) {

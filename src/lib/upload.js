@@ -19,7 +19,7 @@ const uploadTask = uploadBytesResumable(storageRef, file);
       console.log("Upload is " + progress + "% done");
     },
     (error) => {
-        reject('Something went wrong', error)
+        reject('Something went wrong: ', error)
     },
     () => {
       // Upload completed successfully, now we can get the download URL
